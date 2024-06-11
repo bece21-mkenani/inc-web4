@@ -1,0 +1,1518 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(47, 184, 19);
+    background-size: cover;
+    height:1000vh;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(9, 21, 131, 0.493);
+    position: absolute;
+    display: flex;
+}
+
+.icon{
+    width: 10%;
+    height: 100%;
+    float: left;
+    position: absolute;
+}
+
+#logo{
+    color: rgb(165, 60, 60);
+    font-size: 150%;
+    text-decoration: line-through;
+    font-family: Forte;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+#logo1{
+    width: 80%;
+    color:#fff;
+    font-size: 10px;
+    text-align: center;
+    font-family: Bradley Hand ITC;
+    font-weight: bold;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 10%;
+}
+
+.menu{
+    width: 55%;
+    height: 100%;
+    margin-left: 45%;
+    position: absolute;
+}
+
+ul{
+    list-style: none;
+    padding: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+ul li{
+    margin:0 5px;
+    display: inline-block; 
+    color: #fff;
+}
+
+ul li a {
+	text-decoration:none;
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    transition: all 1s ease-in-out;    
+}
+
+ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 3px;
+    transition: all 1s ease-in-out;
+}
+
+#active{
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 3px;
+    transition: all 1s ease-in-out;
+}
+
+#active:hover{
+    cursor: pointer;
+    background-color: rgb(91, 40, 211);
+}
+
+/*home page*/
+
+#title{
+    width: 100%;
+    font-size: 50px;
+    color: #f5fafaee;
+}
+
+#head1{
+    margin-left: 20%; 
+}
+
+#head2{
+    margin-left: 30%;    
+}
+
+#head3{
+    margin-left: 40%;
+}
+
+#title1{
+    width: 100%;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+#search{
+    color: #fff;
+    top: 32%;
+    position: absolute;
+    margin-left: 60%;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background: black;
+    border: none;
+}
+
+#tag{
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 43%;
+}
+
+.hh{
+    display: inline;
+    margin: 20px 20px; 
+}
+
+.main{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 20%;
+    width: 60%;
+    margin-left: 30%;
+    height: 70%;
+    border-radius: 10px;
+    background-color:  transparent;
+    color: rgb(248, 246, 246);
+}
+
+.car_of_the_month{
+    height: 85%;
+}
+
+.car_of_the_month img{
+    width: 30%;
+    margin: 2%;
+    border-radius: 10px;
+    height: 83%;
+}
+
+#inside{
+    width: 27%;
+    height: 100%;
+    margin-left: 71%;
+    margin-top: -29%;
+}
+
+#inside img{
+    width: 100%;
+    height: 40%;
+}
+
+.main h2{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(21, 12, 43);
+}
+
+.main h3{
+    text-decoration: underline;
+}
+
+.main p{
+    text-align: justify;
+}
+
+.side{
+    width: 25%;
+    height: 65%;
+    position: absolute;
+    align-items: center;
+    background-color: transparent;
+}
+
+#events{
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    padding: 2px;
+}
+
+#events slider{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#events slider{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    position: absolute;
+}
+
+#events slider>*{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    animation: slide 12s infinite;
+    overflow: hidden;
+}
+
+#events slide:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background: url(./media/1630943186_12_5667.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#events slide:nth-child(2) {
+    animation-delay: 2s;
+    background: url(./media/Camping-Stove-on-folding-table.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#events slide:nth-child(3) {
+    animation-delay: 5s;
+    background: url(./media/Bulin-C650-Foldable-Mobile-Kitchen-Table-Gas-Cooking-Stove-Desk-for-Outdoor-Barbecue-Grill.jpg_.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#events slide:nth-child(4) {
+    left: 0%;
+    animation-delay: 8s;
+    background: url(./media/IMG_20190610_152827847_HDR-scaled.jpg);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    background-position: center;
+}
+
+
+#events:hover{
+    opacity: 0.8;
+}
+
+#map{
+    position: absolute;
+    top: 38%;
+    width: 90%;
+    height: 30%;
+    padding: 2px;
+}
+
+#map slider{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#map slider{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    position: absolute;
+}
+
+#map slider>*{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    animation: slide 12s infinite;
+    overflow: hidden;
+}
+#map slide:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background:url(./media/The+Sea+to+Summit+Sigma+Cookset+on+a+backpacking+stove.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#map slide:nth-child(2) {
+    animation-delay: 2s;
+    background: url(./media/campingstoves-campchefmountaineer-2048px-2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: absolute;
+}
+#map slide:nth-child(3) {
+    animation-delay: 5s;
+    background:url(./media/camping-chairs-2x1-fullres-28-e1587993150206.webp);
+    background-size: cover;
+    background-position: center;
+}
+#map slide:nth-child(4) {
+    left: 0%;
+    animation-delay: 8s;
+    background: url(./media/OB022.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#map:hover{
+    opacity: 0.8;
+}
+
+#join{
+    position: absolute;
+    top: 73%;
+    width: 90%;
+    height: 30%;
+    padding: 2px;
+}
+
+#join slider{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#join slider{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    position: absolute;
+}
+
+#join slider>*{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    animation: slide 12s infinite;
+    overflow: hidden;
+}
+
+#join slide:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background: url(./media/oztrail_rv_camping_chair_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#join slide:nth-child(2) {
+    animation-delay: 2s;
+    background: url(./media/Camping-Wood-Table-Folding-Portable-Egg-Roll-Style-Stable-BBQ-Table-Solid-Wood-Driving-Tour-Barbecue.jpg_Q90.jpg_.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#join slide:nth-child(3) {
+    animation-delay: 5s;
+    background: url(./media/p109-1024x640.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#join slide:nth-child(4) {
+    left: 0%;
+    animation-delay: 8s;
+    background: url(./media/camping-gear-1618333631.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#join:hover{
+    opacity: 0.8;
+}
+
+slide p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+
+@keyframes slide{
+    0%{ left: 100%; width: 100%;}
+    5%{ left: 0%;}
+    25%{ left: 0%;}
+    30%{ left: -100%; width: 100%;}
+    30.0001%{left: -100%; width: 0%;}
+    100%{left: 100%; width: 0%;}
+}
+.footer a{
+    text-decoration: none;
+}
+
+/*registration page*/
+
+.first_stage{
+    margin-left: 15%;
+    width: 25%;
+    height: 20%;
+    color: #fff;
+    background-color: aqua;
+    display: none;
+}
+
+.second_stage{
+    margin-left: 40%;
+    width: 25%;
+    height: 20%;
+    color: #fff;
+    display: none;
+}
+
+.final_stage{
+    margin-left: 70%;
+    width: 25%;
+    height: 20%;
+    color: #fff;
+    display: none;
+}
+
+#RH_H{
+    color: #fff;
+    margin-left: 15%;
+
+}
+#RH_H2 h2{
+    margin-top: 90px;
+}
+#RH_H2 p{
+    margin-top: 67px;
+}
+
+.R_Form{
+    width: 320px;
+	background:transparent;
+	color: #fff;
+	top: 45%;
+	left: 25%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+    opacity: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8%;
+}
+
+.R_Form form input{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    font-size: 15px;
+    color: #fff;
+}
+
+.R_Form form p{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.R_Form button[type="submit"]{
+	border: none;
+	outline: none;
+	height: 35px;
+	width: 320px;
+	background: rgb(11, 9, 41);
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.R_Form button[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.356);
+    transition: all 1s ease-in-out;
+}
+
+.R_Form form input[type="radio"]{
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 5px;
+    margin-top: -5%;
+}
+
+#RH_H2{
+    color: #fff;
+    margin-left: 60%;
+    width: 300px;
+    margin-top: -4%;
+}
+
+.R_Form2{
+    width: 320px;
+	background:transparent;
+	color: #fff;
+	top: 45%;
+	left: 70%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+    opacity: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 9%;
+}
+
+.R_Form2 form input{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    font-size: 15px;
+    color: #fff;
+}
+
+.R_Form2 form p{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.R_Form2 button[type="submit"]{
+	border: none;
+	outline: none;
+	height: 35px;
+	width: 320px;
+	background: rgb(31, 14, 71);
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.R_Form2 button[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.356);
+    transition: all 1s ease-in-out;
+}
+
+
+/*contact us page*/
+
+#CU_H{
+    color: #fff;
+    margin-left: 15%;
+    width: 310px;
+}
+
+.C_Form{
+    width: 320px;
+	background:transparent;
+	color: #fff;
+	top: 46%;
+	left: 25%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+    opacity: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.C_Form form input{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    font-size: 15px;
+    color: #fff;
+}
+
+.C_Form form p{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.C_Form button[type="submit"]{
+	border: none;
+	outline: none;
+	height: 35px;
+	width: 320px;
+	background: rgb(18, 19, 94);
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.C_Form button[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.356);
+    transition: all 1s ease-in-out;
+}
+
+#or{
+    color: #fff;
+    font-size: 50px;
+    margin-left: 46%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social_platforms{
+    margin-top: -10%;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(182, 23, 147);
+    border-radius: 10px;
+    margin-left: 60%;
+}
+
+.social_platforms h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.image{
+    width: 70px;
+    height: 55px;
+    margin: 20px 20px;
+    float: left;
+    position: relative;
+    margin-left: 15%;
+}
+
+.image img{
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 1s ease-in-out;
+}
+
+.image p{
+    top: 98%;
+    position: absolute;
+    margin-left: 5%;
+    color: #000;
+}
+
+.image:hover{
+    z-index: 1000;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.image img:hover{
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    top: -5%;
+    right: 10%;
+    bottom: 10%;
+    left: -5%;
+}
+
+footer{
+	text-align:center;
+	background-color:rgba(69, 64, 87, 0.842);
+	color:#fff;
+	padding:10px;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	z-index:1;
+    height: 10%;
+}
+
+.footer img{
+    width: 40px;
+    height: 40px;
+    transition: ease-in-out 500ms;
+}
+
+.footer a div img:hover{
+    width: 45px;
+    height: 45px;
+    opacity: 0.7;
+}
+
+/*reviews*/
+.search_club{
+    position: absolute;
+    width: 100%;
+    align-items: center;
+}
+
+.search_club input{
+    width: 35%;
+    margin-left: 25%;
+    position: absolute;
+    text-align: center;
+    height: 25px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.search_club button{
+	width: 39px;
+	height: 26px;
+	border-radius: 10px;
+	background:transparent;
+	border: none;
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 0%;
+}
+
+.search_club button img{
+	height: 20px;
+}
+
+.search_club button img:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+
+#QA_H{
+    color: #fff;
+    margin-left: 15%;
+    width: 310px;
+    margin-top: 10%;
+}
+
+.Q_Form{
+    width: 320px;
+	background:transparent;
+	color: #fff;
+	top: 60%;
+	left: 25%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+    opacity: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Q_Form form input{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    font-size: 15px;
+    color: #fff;
+}
+
+.Q_Form form textarea{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    resize: none;
+}
+
+.Q_Form form p{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.Q_Form button[type="submit"]{
+	border: none;
+	outline: none;
+	height: 35px;
+	width: 320px;
+	background: orangered;
+	color: #fff;
+	font-size: 18px;
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+}
+
+.Q_Form button[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.356);
+    transition: all 1s ease-in-out;
+}
+
+#QA_H2{
+    color: #fff;
+    margin-left: 50%;
+    margin-top: -4%;
+    width: 310px;
+}
+
+.Q_Form2{
+    width: 320px;
+	background:transparent;
+	color: #fff;
+	top: 75%;
+	left: 60.5%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+    opacity: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Q_Form2 form input{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    font-size: 15px;
+    color: #fff;
+}
+
+.Q_Form2 form textarea{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    resize: none;
+}
+
+.Q_Form2 form p{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.Q_Form2 button[type="submit"]{
+	border: none;
+	outline: none;
+	height: 35px;
+	width: 320px;
+	background: orangered;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.Q_Form2 button[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.356);
+    transition: all 1s ease-in-out;
+}
+
+#space{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    margin-top: 40%;
+}
+
+#space2{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    margin-top: 8%;
+}
+
+#space3{
+    width: 100%;
+    height: 8%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    margin-top: 40%;
+}
+
+#space4{
+    width: 100%;
+    height: 8%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    margin-top: 10%;
+}
+/*Cammping Equipments*/
+
+#d{
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 45%;
+}
+
+
+#list{
+    display: none;
+    width: 72%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+}
+
+#list1{
+    display: none;
+    width: 72%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+}
+
+#list2{
+    display: none;
+    width: 72%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+}
+
+#list3{
+    display: none;
+    width: 72%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+}
+
+#list4{
+    display: none;
+    width: 72%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+}
+
+#list5{
+    display: none;
+    width: 72%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+}
+
+#list6{
+    display: none;
+    width: 72%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+}
+
+#list7{
+    display: none;
+    width: 72%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+}
+
+#list8{
+    display: none;
+    width: 72%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+}
+
+#list9{
+    display: none;
+    width: 72%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+}
+
+.drivers ul li ul div #drivers_pic{
+    width: 25%;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: -31%;
+    border: 1px solid orange;
+}
+
+.drivers ul li ul div h4{
+    padding: 10px;
+}
+
+#back{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: -20%;
+    transition: ease-in-out 500ms;
+    border-radius: 5px;
+}
+
+#back:hover{
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+#details{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    padding: 0%;
+    transition: ease-in-out 0s;
+}
+
+#details:hover{
+    background-color: transparent;
+    border-bottom: 1px dashed grey;
+}
+
+/*furniture*/
+
+.driver{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+
+.driver p{
+    color: #fff;
+    padding: 5px;
+}
+
+#car_pics{
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#car_pics img{
+    width: 45%;
+    padding: 5px;
+    border-radius: 10px;
+    border: orange 5px solid;
+    margin: 5px;
+    transition: ease-in-out 500ms;
+}
+
+#car_pics img:hover{
+    border-color: rgba(255, 255, 255, 0.356);
+    cursor: pointer;
+}
+
+#back1{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 10%;
+    transition: ease-in-out 500ms;
+    border-radius: 5px;
+}
+
+#back1:hover{
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+#back2{
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 71%;
+    transition: ease-in-out 500ms;
+    border-radius: 5px;
+}
+
+#back2:hover{
+    background-color: rgba(255, 255, 255, 0.356);
+}
+/*Offers and packages*/
+#head4{
+    color: rgb(226, 218, 224);
+}
+
+.main2{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 20%;
+    width: 40%;
+    margin-left: 20%;
+    height: 50%;
+    border-radius: 10px;
+    background-color:  transparent;
+    color: #fff;
+    text-align: justify;
+}
+
+/*addon*/
+#on_work{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#link{
+    color: orange;
+    font-size: medium;
+    text-align: center;
+}
+
+#error{
+    margin-left: 45%;
+    border-radius: 10px;
+    opacity: 0.7;
+    width: 10%;
+}
+
+/* MEDIA QUARIES */
+
+/* bigger tablets */
+@media screen and (max-width: 1200px){
+    header{
+        width: 100%;
+        height: 25%;
+    }
+
+    .icon{
+        width: 15%;
+        height: 50%;
+        margin-left: 45%;
+        background-color: transparent;
+    }
+
+    .menu{
+        width: 80%;
+        top: 50%;
+        margin-left: 20%;
+    }
+
+    #title{
+        margin-top: 10%;
+        font-size: 30px;
+    }
+    
+    #search{
+       display: none;
+    }
+    
+    #tag{
+        font-size: 15px;
+    }
+
+    #d{
+        margin-top: 8%;
+    }
+
+    #CU_H{
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 300px;
+    }
+    
+    .C_Form{
+        top: 70%;
+    }
+
+    #or{
+        margin-top: 15%;
+        font-size: 30px;
+        color: transparent;
+    }
+
+    .social_platforms{
+        margin-top: -15%;
+    }
+
+    .search_club input{
+        margin-top: 15%;
+        margin-left: 30%;
+    }
+
+    #QA_H{
+        position: absolute;
+        top: 44%;
+        margin-left: 29.5%; 
+    }
+
+    .Q_Form{
+        position: absolute;
+        margin-top: 20%;
+        left: 45%;
+    }
+
+    #QA_H2{
+        position: absolute;
+        top: 130%;
+        margin-left: 29%; 
+    } 
+
+    .Q_Form2{
+        margin-top: 65%;
+        left: 45%;
+    }
+
+    .search_club button{
+        margin-left: 60%;
+        margin-top: 15%;
+    }
+
+    .R_Form{
+        margin-top: 30%;
+        left: 45%;
+    }
+
+    #RH_H{
+        position: absolute;
+        top: 35%;
+        margin-left: 29.5%;
+    }
+
+    #RH_H2{
+        position: absolute;
+        top: 147%;
+        margin-left: 29%; 
+    }
+
+    .R_Form2{
+        margin-top: 105%;
+        left: 45%;
+    }
+}
+
+/* tablets */
+@media screen and (max-width: 760px){
+    header{
+        width: 100%;
+        height: 25%
+    }
+
+    .icon{
+        width: 15%;
+        height: 50%;
+        margin-left: 45%;
+        background-color: transparent;
+    }
+
+    .menu{
+        width: 100%;
+        top: 50%;
+        float: none;
+        margin-left: 0%;
+    }
+
+    ul li{
+        margin:0 5px;
+        margin-left: 12px;
+    }
+
+    #title{
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    
+    #search{
+       display: none;
+    }
+    
+    #tag{
+        font-size: 15px;
+    }
+    
+    #CU_H{
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 300px;
+    }
+    
+    .C_Form{
+        top: 70%;
+        width: 250px;
+        margin-left: -7%;
+    }
+
+    #or{
+        margin-top: 15%;
+        font-size: 20px;
+    }
+
+    .social_platforms{
+        margin-top: -15%;
+        width: 250px;
+    }
+
+    .image{
+        width: 50px;
+        height: 55px;
+    }
+
+    #QA_H{
+        position: absolute;
+        top: 40%;
+        margin-left: 27%; 
+    }
+
+    .Q_Form{
+        position: absolute;
+        margin-top: 20%;
+        left: 45%;
+    }
+
+    #QA_H2{
+        position: absolute;
+        top: 110%;
+        margin-left: 27%; 
+    } 
+
+    .Q_Form2{
+        margin-top: 75%;
+        left: 45%;
+    }
+}
+
+/* mobiles */
+@media screen and (max-width: 480px){
+
+}
+/* my work */
+
+.multiple {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item {
+    background-color: #f1f1f1b0;
+    border: 1px solid #d1cccc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+.item h2 {
+    margin-top: 0;
+}
+.item p {
+    font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+    nav a {
+        float: none;
+        width: 100%;
+    }
+    .item {
+        width: 100%;
+    }
+}
+
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header, main, footer {
+	padding: 1rem;
+}
+
+/* Header styles */
+header {
+	color: #fff;
+}
+
+/* Main styles */
+main {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/* Reviews section styles */
+.reviews {
+	margin-bottom: 2rem;
+}
+
+.review {
+	margin-bottom: 1rem;
+	border: 1px solid #ccc;
+	padding: 1rem;
+}
+
+.review h3 {
+	margin-bottom: 0.5rem;
+}
+
+/* Contact section styles */
+.contact {
+	margin-bottom: 2rem;
+}
+
+.contact label {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+.contact input,
+.contact textarea {
+	display: block;
+	width: 100%;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.contact input[type="submit"] {
+	background-color: darkblue;
+    color: white;
+}
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+    height: 100vh;
+}
+
+header, main, footer {
+	padding: 1rem;
+}
+
+/* Header styles */
+header {
+
+	color: black;
+}
+
+/* Main styles */
+main {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/* Items section styles */
+.items {
+	margin-bottom: 2rem;
+}
+
+.items li {
+	display: block;
+	align-items: center;
+	margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items li img {
+	flex: 0 0 100px;
+	margin-right: 1rem;
+}
+
+.items li h3 {
+	margin-bottom: 0.5rem;
+}
+
+.items li p {
+	margin-bottom: 0.5rem;
+}
+
+.items li button {
+	background-color: black;
+	color: black;
+} 
+.epic {
+    color: #000;
+
+}
